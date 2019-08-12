@@ -1,4 +1,4 @@
-let name = "Green"; // expression
-let familyName = "Banana"; // declaration and assignment
+let firstName = "Green"; // expression
+let lastName = "Banana"; // declaration and assignment
 
-console.log("hello " + name + familyName); // statement
+console.log("hello " + firstName + lastName); // statement
