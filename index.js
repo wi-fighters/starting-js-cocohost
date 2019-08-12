@@ -8,6 +8,8 @@ let length = 16.78; // number
 let surName = "Johnson"; 
 let car = ""; // string
 let isOpen = true; // boolean
+let ageMark = "22";
+let ageJohn = 33;
 
 console.log(firstName + " " + lastName + " " + "is a" + " " + age + " " + "year old" + " "
 + job +  " " + "who lives in" + " " + city); // statement
@@ -16,3 +18,7 @@ console.log(typeof length);
 console.log(typeof surName);
 console.log(typeof car);
 console.log(typeof isOpen);
+
+console.log(typeof ageMark);
+console.log(typeof ageJohn);
+
