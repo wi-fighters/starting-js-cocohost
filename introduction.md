@@ -23,7 +23,7 @@ Copy and paste these variables into your JavaScript file. Write down which type 
 ```javascript
 let length = 16.78; 
 let lastName = "Johnson"; 
-let car = ""; 
+let car = "bobbyCar"; 
 let isOpen = true;
 ```
 ### 5. Number Vars	
