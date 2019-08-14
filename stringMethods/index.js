@@ -36,6 +36,13 @@ console.log(`${iCan}`);
 const iLoveJs = "JavaScript";
 console.log(iLoveJs[1] , iLoveJs[4] ,  iLoveJs[5]);
 
+// 5. Upper Case
+// Declare a variable with the value of `Hello World`. 
+// Covert the value to upper case and print the converted value to the console.
+
+const greeting = "Hello World";
+const up = `${greeting.toUpperCase()}`;
+console.log(up);
 
 
 
