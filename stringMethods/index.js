@@ -28,5 +28,15 @@ console.log(`${iCan}`);
 
 // console.log(whereToGo);
 
+// 4 aSc
+// Declare a variable with the value `JavaScript`. 
+// Use string methods to print the characters `aSc` 
+// from your declared variable.
+
+const iLoveJs = "JavaScript";
+console.log(`Name length is ${iLoveJs.length}`);
+console.log(iLoveJs[0] , iLoveJs[4] );
+
+
 
 
