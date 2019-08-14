@@ -1,11 +1,10 @@
 // 1. canDrive?
 
 const canDrive = 18;
-const Paul = 33;
-const Peter = 17;
+const personAge = 33;
 
-
-
+const ageCheck = (personAge >= canDrive) ? "Yes, you can drive! Hope you have a license" : "Nope, you're too young!";
+console.log(ageCheck);
 
 // 2. Slow Down!
 
