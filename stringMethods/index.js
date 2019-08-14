@@ -23,9 +23,10 @@ console.log(language[0] , language[4] );
 // Print the word "park" to the console.
 
 const sentence = "I can walk in the park all day!";
-const whereToGo = sentence.includes("park");
+const iCan = (sentence.includes("park"))? "park" : "What else can you do?";
+console.log(`${iCan}`);
 
-console.log(whereToGo);
+// console.log(whereToGo);
 
 
 
