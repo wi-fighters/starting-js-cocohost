@@ -4,7 +4,7 @@
 // and if not, print `Nope, you're too young!`
 
 const canDrive = 18;
-const personAge = 33;
+const personAge = 17;
 
 const ageCheck = (personAge >= canDrive) ? "Yes, you can drive! Hope you have a license" : "Nope, you're too young!";
 console.log(ageCheck);
@@ -29,10 +29,29 @@ const personControl = 44;
 const drinkRecommendation = (alcRelease >= personControl) ? "Here's some juice" : "Here's some wine";
 console.log(drinkRecommendation);
 
-
 // 4. Student Discount
+//Declare a variable named isStudent. If true, print `Ticket costs €5,00`. If false, print `Ticket costs €12,00`.
+
+const isMember = true;
+const isStudent = (isMember) ? "Ticket costs €5,00" : "Ticket costs €12,00";
+
+console.log(isStudent);
+
+// Another Version ..
+
+const isAnotherStudent = "No";
+const latestCheck = ("yes" == isAnotherStudent) ? "Ticket costs €5,00" : "Ticket costs €12,00";
+
+console.log(latestCheck);
 
 
 // 5. What time is it?
+// Declare a variable named timeOfDay. 
+// Check if the time of day is `morning` - if so, print `Good Morning`. If not, print `Good Evening`.
+
+const morning = true
+const timeOfDay =(morning) ? "Good Morning" : "Good Evening";
+
+console.log(timeOfDay);
 
 
