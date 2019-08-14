@@ -34,8 +34,7 @@ console.log(`${iCan}`);
 // from your declared variable.
 
 const iLoveJs = "JavaScript";
-console.log(`Name length is ${iLoveJs.length}`);
-console.log(iLoveJs[0] , iLoveJs[4] );
+console.log(iLoveJs[1] , iLoveJs[4] ,  iLoveJs[5]);
 
 
 
