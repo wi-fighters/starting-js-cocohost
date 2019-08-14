@@ -18,3 +18,10 @@ const language = "JavaScript";
 console.log(`Name length is ${language.length}`);
 console.log(language[0] , language[4] );
 
+// 3. I can...
+// Declare a variable with the value of "I can walk in the park all day!". 
+// Print the word "park" to the console.
+
+const sentence = "I can walk in the park all day!";
+
+
