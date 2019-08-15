@@ -41,8 +41,17 @@ console.log(iLoveJs[1] , iLoveJs[4] ,  iLoveJs[5]);
 // Covert the value to upper case and print the converted value to the console.
 
 const greeting = "Hello World";
-const up = `${greeting.toUpperCase()}`;
+// const up = `${greeting.toUpperCase()}`;
+const up = greeting.toUpperCase();
 console.log(up);
 
+// 6. Lower Case
+// Declare another variable with the value of `Hello Earthling`. 
+// Convert the value to lower case and print the converted value to the console.
+
+const hi = "Hello Earthling";
+// const up = `${greeting.toUpperCase()}`;
+const hello = hi.toLowerCase();
+console.log(hello);
 
 
