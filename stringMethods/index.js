@@ -23,7 +23,7 @@ console.log(language[0] , language[4] );
 // Print the word "park" to the console.
 
 const sentence = "I can walk in the park all day!";
-const iCan = (sentence.includes("park"))? "park" : "What else can you do?";
+const iCan = sentence.includes("park") ? "park" : "What else can you do?";
 console.log(`${iCan}`);
 
 // console.log(whereToGo);
@@ -53,5 +53,35 @@ const hi = "Hello Earthling";
 // const up = `${greeting.toUpperCase()}`;
 const hello = hi.toLowerCase();
 console.log(hello);
+
+// 7. Does it contain...?
+// Check if the words `nice shoes` contains the letter `l` or `n`.
+
+
+// 8. Front & Back
+// Create a new string from a given string with the first character of the given string added at the front and back.
+// Expected output: JavaScript => JJavaScriptJ
+
+//9. Last Three Chars
+//Create a new string from a given string taking the last 3 characters of the string and add them to both the front and back of the new string. The string length must be 3 or more.
+// Expected output: Javascript => iptJavaScriptipt
+
+
+// 10. Java
+// Create a variable and assign a string value to it. 
+// Then, convert the value to upper case and print the value to the console. 
+// Check whether it includes `Java`.
+
+
+// 11. First and Last
+// Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2. 
+// Expected output: JavaScript => tavaScripJ
+
+
+// 12. Concatenation
+// Create 3 different variables about yourself using strings as values e.g. let firstName = "Maria". Print the sentence to the console using string interpolation. 
+// Example of output: `My name is Maria. I live in Berlin and I am a teacher`.
+
+
 
 
