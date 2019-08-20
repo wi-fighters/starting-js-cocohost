@@ -77,11 +77,20 @@ console.log(hello);
 // Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2. 
 // Expected output: JavaScript => tavaScripJ
 
+// length -1 to get the last char
+
 
 // 12. Concatenation
 // Create 3 different variables about yourself using strings as values e.g. let firstName = "Maria". Print the sentence to the console using string interpolation. 
 // Example of output: `My name is Maria. I live in Berlin and I am a teacher`.
 
+
+// 13. Capitalize
+// Declare a variable and assign the value `the quick brown fox` (lower case). 
+// Capitalize the first letter of that string.
+
+const panGram = "the quick brown fox";
+console.log(panGram[0].toLocaleUpperCase() + panGram.substring(1));
 
 
 
