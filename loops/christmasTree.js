@@ -7,7 +7,6 @@
 
 const tannenBaum = () => {
   let zweige = " ";
-  let stamm = " ";
 
   for (let rows = 0; rows < 4; rows += 1) {
     zweige = " ";
@@ -22,13 +21,6 @@ const tannenBaum = () => {
     }
     console.log(zweige);
   }
-  for (let rows = 0; rows < 2; rows += 1) {
-    stamm += "   ";
-  }
-  for (let rows = 0; rows < 3; rows += 1) {
-    stamm += " * ";
-  }
-  console.log(stamm);
 };
 
 tannenBaum();
