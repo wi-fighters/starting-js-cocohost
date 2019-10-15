@@ -18,6 +18,7 @@ Object.defineProperty(obj, "divide", {
   set: function(value) {
     this.counter /= value;
     this.counter = Math.floor(this.counter); // Um ganze Zahlen zu erhalten.
+    // hier können noch weitere Konfigurationen stehen this.counter = this.counter *= 1000 oder so ...
   }
 });
 
