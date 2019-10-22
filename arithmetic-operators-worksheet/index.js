@@ -2,10 +2,20 @@
 
 // 1.Percent
 
+const percent = (num1, num2) => {
+  let result = num1 / num2;
+  return `This is the result: ${result}%`;
+};
+// Question - Why doesn't it work without console.log
+console.log(percent(12, 24));
+
 // 2. Working with Averages
 
-// 2.1 Working Hours
+const myArray = [8, 6, 5, 9, 8, 2, 1, 8.5, 7, 4];
 
+const numOfHours = myArray => {};
+
+// 2.1 Working Hours
 
 // 2.3 Score
 
